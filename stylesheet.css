@@ -35,24 +35,24 @@ html, body{
     cursor: pointer;
 }
 .github{
-    width: 70px;
-    size: 80%;
+    max-width:100%;
+    height:auto;
     cursor: pointer;
 }
 .github:hover{
     transform: translateY(-7%);
 }
 .discord{
-    width: 70px;
-    size: 100%;
+    max-width:100%;
+    height:auto;
     cursor: pointer;
 }
 .discord:hover{
     transform: translateY(-7%);
 }
 .stackoverflow{
-    width: 70px;
-    size: 60%;
+    max-width:100%;
+    height:auto;
     cursor: pointer;
 }
 .stackoverflow:hover{
