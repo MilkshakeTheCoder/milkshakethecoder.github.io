@@ -37,7 +37,7 @@ html, body{
 }
 .github{
     max-width:50%;
-    height:10px;
+    height:80px;
     cursor: pointer;
 }
 .github:hover{
@@ -45,7 +45,7 @@ html, body{
 }
 .discord{
     max-width:50%;
-    height:10px;
+    height:80px;
     cursor: pointer;
 }
 .discord:hover{
@@ -53,7 +53,7 @@ html, body{
 }
 .stackoverflow{
     max-width:50%;
-    height:10px;
+    height:80px;
     cursor: pointer;
 }
 .stackoverflow:hover{
