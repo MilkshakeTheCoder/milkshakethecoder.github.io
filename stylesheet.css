@@ -42,15 +42,25 @@ html, body{
     height: 100px;
 }
 
-.specialimg{
-    /* cursor: pointer; */
-    margin: 1em 0;
-    text-align: center;
-    width: 30%;
-    height: 30%;
-    object-fit: cover;
+.github{
+    width:80px;
+    cursor: pointer;
 }
-.specialimg:hover{
+.github:hover{
+    transform: translateY(-7%);
+}
+.discord{
+    width:80px;
+    cursor: pointer;
+}
+.discord:hover{
+    transform: translateY(-7%);
+}
+.stackoverflow{
+    width:80px;
+    cursor: pointer;
+}
+.stackoverflow:hover{
     transform: translateY(-7%);
 }
 nav{
