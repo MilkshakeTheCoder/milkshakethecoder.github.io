@@ -14,7 +14,8 @@ html, body{
     width: 100%;
     background: rgb(2,0,36);
     background-image: url(Images/polygon.png);
-    background-position: pointer;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     padding-left: 2%;
     padding-right: 2%;
