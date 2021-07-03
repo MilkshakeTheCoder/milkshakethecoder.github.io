@@ -36,24 +36,24 @@ html, body{
     cursor: pointer;
 }
 .github{
-    max-width:10%;
-    height:auto;
+    max-width:50%;
+    height:10px;
     cursor: pointer;
 }
 .github:hover{
     transform: translateY(-7%);
 }
 .discord{
-    max-width:10%;
-    height:auto;
+    max-width:50%;
+    height:10px;
     cursor: pointer;
 }
 .discord:hover{
     transform: translateY(-7%);
 }
 .stackoverflow{
-    max-width:10%;
-    height:auto;
+    max-width:50%;
+    height:10px;
     cursor: pointer;
 }
 .stackoverflow:hover{
