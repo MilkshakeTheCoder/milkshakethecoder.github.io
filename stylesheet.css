@@ -13,7 +13,6 @@ html, body{
 .container{
     height: 100%;
     width: 100%;
-    background: rgb(2,0,36);
     background-image: url(Images/polygon.png);
     /* The image used */
     background-image: url("img_parallax.jpg");
