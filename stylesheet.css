@@ -3,7 +3,7 @@
 html, body{
     font-family: 'Roboto', sans-serif;   
     font-weight: 700;
-    color:lightskyblue;
+    color: #a1d5ff;
     height: 100%;
     background-image: url(Images/polygon.png);
     background-attachment: fixed;
