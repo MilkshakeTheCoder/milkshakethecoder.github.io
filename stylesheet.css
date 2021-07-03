@@ -37,24 +37,21 @@ html, body{
     cursor: pointer;
 }
 .github{
-    width:60%;
-    height:80%;
+    width:40px;
     cursor: pointer;
 }
 .github:hover{
     transform: translateY(-7%);
 }
 .discord{
-    width:80%;
-    height:100%;
+    width:40px;
     cursor: pointer;
 }
 .discord:hover{
     transform: translateY(-7%);
 }
 .stackoverflow{
-    width:40%;
-    height:60%;
+    width:40px;
     cursor: pointer;
 }
 .stackoverflow:hover{
