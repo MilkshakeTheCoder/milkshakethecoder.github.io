@@ -13,26 +13,15 @@ html, body{
 .container{
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    background-image: url(Images/polygon.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     padding-left: 2%;
     padding-right: 2%;
     box-sizing: border-box;
     position: relative;
-}
-.sliding-background{
-    background: url("Images/polygon.png") repeat-x;
-    height: 500px;
-    width: 5076px;
-    animation: slide 60s linear infinite;
-}
-@keyframes slide{
-    0%{
-      transform: translate3d(0, 0, 0);
-    }
-    100%{
-      transform: translate3d(-1692px, 0, 0); /* The image width */
-    }
 }
 .navbar{
     width: 100%;
