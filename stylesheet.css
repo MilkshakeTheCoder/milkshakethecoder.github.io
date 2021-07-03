@@ -3,7 +3,8 @@
 html, body{
     font-family: 'Roboto', sans-serif;   
     font-weight: 700;
-    color:lightskyblue; 
+    color:lightskyblue;
+    height: 100%;
 }
 *{
     margin: 0;
@@ -14,8 +15,17 @@ html, body{
     width: 100%;
     background: rgb(2,0,36);
     background-image: url(Images/polygon.png);
-    background-repeat: no-repeat;
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-size: cover;
     padding-left: 2%;
     padding-right: 2%;
@@ -44,7 +54,7 @@ html, body{
     transform: translateY(-7%);
 }
 .discord{
-    max-width:50%;
+    max-width:70%;
     height:80px;
     cursor: pointer;
 }
@@ -52,7 +62,7 @@ html, body{
     transform: translateY(-7%);
 }
 .stackoverflow{
-    max-width:50%;
+    max-width:30%;
     height:80px;
     cursor: pointer;
 }
