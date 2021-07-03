@@ -46,8 +46,8 @@ html, body{
     cursor: pointer;
     margin: 1em 0;
     text-align: center;
-    width: 30vw;
-    height: 30vw;
+    width: 30%;
+    height: 30%;
     object-fit: cover;
 }
 .specialimg:hover{
