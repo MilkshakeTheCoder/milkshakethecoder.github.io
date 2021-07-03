@@ -37,7 +37,7 @@ html, body{
     cursor: pointer;
 }
 .github{
-    width:80%;
+    width:60%;
     height:80%;
     cursor: pointer;
 }
@@ -45,7 +45,7 @@ html, body{
     transform: translateY(-7%);
 }
 .discord{
-    width:100%;
+    width:80%;
     height:100%;
     cursor: pointer;
 }
@@ -53,7 +53,7 @@ html, body{
     transform: translateY(-7%);
 }
 .stackoverflow{
-    width:60%;
+    width:40%;
     height:60%;
     cursor: pointer;
 }
