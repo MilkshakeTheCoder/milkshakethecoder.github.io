@@ -43,6 +43,7 @@ html, body{
 }
 .discord{
     width: 70px;
+    height: 70px;
     cursor: pointer;
 }
 .discord:hover{
