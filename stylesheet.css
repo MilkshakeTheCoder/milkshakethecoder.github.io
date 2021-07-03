@@ -36,31 +36,21 @@ html, body{
     width: 200px;
     cursor: pointer;
 }
-img {
+.img {
     float: left;
     width:  100px;
     height: 100px;
 }
 
-.github{
-    width:80px;
+.specialimg{
     cursor: pointer;
+    margin: 1em 0;
+    text-align: center;
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
 }
-.github:hover{
-    transform: translateY(-7%);
-}
-.discord{
-    width:80px;
-    cursor: pointer;
-}
-.discord:hover{
-    transform: translateY(-7%);
-}
-.stackoverflow{
-    width:80px;
-    cursor: pointer;
-}
-.stackoverflow:hover{
+.specialimg:hover{
     transform: translateY(-7%);
 }
 nav{
