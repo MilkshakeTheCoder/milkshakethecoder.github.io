@@ -45,8 +45,8 @@ html, body{
     cursor: pointer;
 }
 .github{
-    max-width:100%;
-    height:80px;
+    max-width:80%;
+    height:auto;
     cursor: pointer;
 }
 .github:hover{
@@ -54,15 +54,15 @@ html, body{
 }
 .discord{
     max-width:100%;
-    height:80px;
+    height:auto;
     cursor: pointer;
 }
 .discord:hover{
     transform: translateY(-7%);
 }
 .stackoverflow{
-    max-width:100%;
-    height:80px;
+    max-width:60%;
+    height:auto;
     cursor: pointer;
 }
 .stackoverflow:hover{
