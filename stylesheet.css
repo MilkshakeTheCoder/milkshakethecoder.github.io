@@ -43,7 +43,7 @@ html, body{
 }
 
 .specialimg{
-    cursor: pointer;
+    /* cursor: pointer; */
     margin: 1em 0;
     text-align: center;
     width: 30%;
