@@ -49,6 +49,13 @@ html, body{
 .discord:hover{
     transform: translateY(-7%);
 }
+.stackoverflow{
+    width: 70px;
+    cursor: pointer;
+}
+.stackoverflow:hover{
+    transform: translateY(-7%);
+}
 nav{
     flex: 1;
     padding-left: 60px;
