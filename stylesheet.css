@@ -44,7 +44,6 @@ html, body{
 
 .github{
     width:80px;
-    object-fit: contain;
     cursor: pointer;
 }
 .github:hover{
@@ -52,7 +51,6 @@ html, body{
 }
 .discord{
     width:80px;
-    object-fit: contain;
     cursor: pointer;
 }
 .discord:hover{
@@ -60,7 +58,6 @@ html, body{
 }
 .stackoverflow{
     width:80px;
-    object-fit: contain;
     cursor: pointer;
 }
 .stackoverflow:hover{
