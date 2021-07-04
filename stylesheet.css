@@ -22,7 +22,6 @@ html, body{
     padding-right: 2%;
     box-sizing: border-box;
     position: relative;
-    text-align: justify;
 }
 .navbar{
     width:100%;
@@ -30,7 +29,7 @@ html, body{
     margin: auto;
     display:flex;
     align-items:center;
-    text-align: left; 
+    justify-content: center;
 }
 .logo{
     width: 200px;
