@@ -24,7 +24,7 @@ html, body{
     position: relative;
 }
 .navbar{
-    width: 50%;
+    width: auto;
     height: 25vh;
     margin: auto;
     display:flex;
