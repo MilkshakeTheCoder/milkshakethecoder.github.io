@@ -28,7 +28,7 @@ html, body{
     height: 25vh;
     margin: auto;
     display:flex;
-    align-items:center;
+    align-items:flex;
     text-align: left; 
 }
 .navbar h1 {
