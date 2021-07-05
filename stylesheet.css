@@ -77,6 +77,8 @@ section {
     background-color: #141863;
     margin-bottom: 24px;
     min-height: flex;
+    width: flex;
+    min-width: flex;
     height: flex;
     padding-left: 24px;
     padding-right: 24px;
