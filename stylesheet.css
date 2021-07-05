@@ -22,6 +22,7 @@ html, body{
     padding-right: 2%;
     box-sizing: border-box;
     position: relative;
+    margin-bottom: 10%;
 }
 .navbar{
     width:100%;
