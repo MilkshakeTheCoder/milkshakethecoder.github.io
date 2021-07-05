@@ -31,7 +31,6 @@ html, body{
     display:flex;
     align-items:center;
     text-align: left; 
-    justify-content: left;
 }
 
 /*Hey this is the new class. It is basically just justify-content center!*/
