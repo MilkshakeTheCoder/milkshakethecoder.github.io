@@ -36,7 +36,6 @@ html, body{
 /*Hey this is the new class. It is basically just justify-content center!*/
 .text-container{
     display: flex;
-    justify-content: center;
 }
 /* .github{
     width: 70px;
