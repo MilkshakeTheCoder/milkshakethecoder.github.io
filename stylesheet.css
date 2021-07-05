@@ -79,6 +79,7 @@ section {
     height: flex;
     padding-left: 24px;
     padding-right: 24px;
+    padding-bottom: 10px;
     border-radius: 20px;
     border-color: #FFFFFF;
     border: 2px solid Black;
