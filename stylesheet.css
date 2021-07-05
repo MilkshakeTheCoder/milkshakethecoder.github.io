@@ -76,7 +76,7 @@ nav ul li a{
 section {
     background-color: #141863;
     margin-bottom: 24px;
-    min-height: 320px;
+    min-height: flex;
     height: flex;
     padding-left: 24px;
     padding-right: 24px;
