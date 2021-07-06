@@ -40,27 +40,15 @@ html, body{
     display: flex;
     justify-content: center;
 }
-/* .github{
-    width: 70px;
-    cursor: pointer;
-}
 .github:hover{
     transform: translateY(-7%);
-}
-.discord{
-    width:70px;
-    cursor: pointer;
 }
 .discord:hover{
     transform: translateY(-7%);
 }
-.stackoverflow{
-    width:70px;
-    cursor: pointer;
-}
 .stackoverflow:hover{
     transform: translateY(-7%);
-} */
+}
 nav{
     flex: 1;
     padding-left: 40px;
