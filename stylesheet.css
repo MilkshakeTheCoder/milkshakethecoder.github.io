@@ -66,7 +66,7 @@ section {
     background-color: #141863;
     margin-bottom: 24px;
     min-height: flex;
-    width: flex;
+    width: fit-content;
     min-width: flex;
     height: flex;
     padding-left: 24px;
