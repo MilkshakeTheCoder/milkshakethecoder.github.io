@@ -49,6 +49,18 @@ html, body{
 .stackoverflow:hover{
     transform: translateY(-7%);
 }
+.CafeBot:hover{
+    transform: translateY(-7%);
+}
+.LearningPython:hover{
+    transform: translateY(-7%);
+}
+.LearningHTML:hover{
+    transform: translateY(-7%);
+}
+.Website:hover{
+    transform: translateY(-7%);
+}
 nav{
     flex: 1;
     padding-left: 40px;
