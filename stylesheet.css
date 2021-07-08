@@ -89,6 +89,7 @@ section {
     margin-right: auto;
     border-radius: 20px;
     border-color: #FFFFFF;
+    justify-content:center;
     border: 1px solid Black;
     box-shadow: 0px 10px 20px black;
     }
