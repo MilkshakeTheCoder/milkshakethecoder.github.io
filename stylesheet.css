@@ -5,7 +5,7 @@ html, body{
     font-weight: 700;
     color: #a1d5ff;
     height: 100%;
-    background-image: url(particles.js);
+    background-image: url(Images/polygon.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
