@@ -109,13 +109,3 @@ section {
 section:hover {
     box-shadow: 0px 20px 40px black;
 }
-minisection {
-    border-radius: 35px;
-    border: 1px solid #a1d5ff;
-    height: flex;
-    width: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
