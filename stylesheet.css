@@ -1,44 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
-html, body{
-    font-family: 'Roboto', sans-serif;   
-    font-weight: 700;
-    color: #a1d5ff;
-    height: 100%;
-    background-image: url(Images/polygon.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 10%;
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-.container{
-    height: 100%;
-    width: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
-    box-sizing: border-box;
-    position: relative;
-    margin-bottom: 10%;
-}
-.navbar{
-    width:100%;
-    /*I removed this height thing so the text wont be waay up on the page*/
-    /* height: 25vh; */
-    margin: auto;
-    display:flex;
-    align-items:center;
-    text-align: left; 
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
 }
 
-/*Hey this is the new class. It is basically just justify-content center!*/
-.text-container{
-    display: flex;
-    justify-content: center;
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #82b8ff;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+main {
+  padding: 4rem;
+  margin-bottom: 10vh; }
+  main#home {
+    overflow: hidden; }
+    main#home h1 {
+      margin-top: 20vh;
+      font-size: 6rem; 
+      color: #82b8ff;
+    }
+    main#home h1:hover {
+      transform: translateY(-7%);
+    }
+  main#about {
+    overflow: hidden; }
+    main#about h1 {
+      margin-top: 30px; }
+  main#repos {
+    overflow: hidden; }
+    main#repos h1 {
+      margin-top: 30px; }
+  main#experiences {
+    overflow: hidden; }
+    main#experiences h1 {
+      margin-top: 30px; }
+  main#contact {
+    overflow: hidden; }
+    main#contact h1 {
+      margin-top: 30px; }
+
+.github{
+  margin-right: 10px;
 }
 .github:hover{
     transform: translateY(-7%);
@@ -49,63 +117,39 @@ html, body{
 .stackoverflow:hover{
     transform: translateY(-7%);
 }
-.CafeBot:hover{
-    transform: translateY(-7%);
-}
-.LearningPython:hover{
-    transform: translateY(-7%);
-}
-.LearningHTML:hover{
-    transform: translateY(-7%);
-}
-.Website:hover{
-    transform: translateY(-7%);
-}
-nav{
-    flex: 1;
-    padding-left: 40px;
-}
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 0px 20px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: #d9dfff;
+.homeport{
+  width: 400px;
+  margin-right: 70px;
+  margin-top: 70px;
+  cursor: pointer;
 }
 section {
-    background-color: #141863;
-    margin-bottom: 24px;
-    min-height: flex;
-    width: fit-content;
-    min-width: fit-content;
-    height: flex;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 24px;
-    padding-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    border-color: #FFFFFF;
-    border: 1px solid Black;
-    box-shadow: 0px 10px 20px black;
-    }
-    img.small {
-    border-radius: 35px;
-    border: 1px solid Black;
-    }
-    img.medium {
-    border-radius: 35px;
-    border: 1px solid Black;
-    height: 210px;
-    width: 520px;
-    }
-    h2 {
-        padding-top: 15px;
-        text-align:center;
-    }
-section:hover {
-    box-shadow: 0px 20px 40px black;
-}
+  background-color: rgb(59, 59, 59);
+  margin-bottom: 24px;
+  min-height: flex;
+  width: fit-content;
+  min-width: fit-content;
+  height: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border-color: #FFFFFF;
+  }
+  img.small {
+  border-radius: 35px;
+  border: 1px solid Black;
+  }
+  img.medium {
+  border-radius: 35px;
+  border: 1px solid Black;
+  height: 210px;
+  width: 520px;
+  }
+  section h2 {
+    padding-top: 15px;
+    text-align:center;
+  }
