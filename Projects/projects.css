@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #82b8ff;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+main {
+  padding: 4rem;
+  margin-bottom: 10vh; }
+  main#home {
+    overflow: hidden; }
+    main#home h1 {
+      margin-top: 20vh;
+      font-size: 6rem; 
+      color: #82b8ff;
+    }
+    main#home h1:hover {
+      transform: translateY(-7%);
+    }
+  main#about {
+    overflow: hidden; }
+    main#about h1 {
+      margin-top: 30px; }
+  main#projects {
+    overflow: hidden; }
+    main#projects h1 {
+      margin-top: 30px; }
+  main#experiences {
+    overflow: hidden; }
+    main#experiences h1 {
+      margin-top: 30px; }
+  main#links {
+    overflow: hidden; }
+    main#links h1 {
+      margin-top: 30px; }
+  main#cbot {
+    overflow: hidden; }
+    main#cbot h1 {
+      margin-top: 30px;}
+
+.github{
+  margin-right: 10px;
+}
+.github:hover{
+    transform: translateY(-7%);
+}
+.discord:hover{
+    transform: translateY(-7%);
+}
+.stackoverflow:hover{
+    transform: translateY(-7%);
+}
+.homeport{
+  width: 400px;
+  margin-right: 70px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+section {
+  background-color: rgb(59, 59, 59);
+  margin-bottom: 24px;
+  min-height: flex;
+  width: fit-content;
+  min-width: fit-content;
+  height: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border-color: #FFFFFF;
+  }
+  img.small {
+  border-radius: 35px;
+  border: 1px solid Black;
+  }
+  img.medium {
+  border-radius: 35px;
+  border: 1px solid Black;
+  height: 210px;
+  width: 520px;
+  }
+  section h2 {
+    padding-top: 15px;
+    text-align:center;
+  }
+
+footer {
+  margin-bottom: 15px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #82b8ff;
+}
+
+/* Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: #0000FF; 
+} */
+
+minithing{
+  border-color: #82b8ff;
+  border: 2.5px solid #82b8ff;
+  min-height: flex;
+  width: fit-content;
+  min-width: fit-content;
+  height: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-top: 10px;
+  }
+  minithing img {
+  width: 70px;
+  } 
