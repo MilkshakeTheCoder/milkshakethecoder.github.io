@@ -1,4 +1,0 @@
-note to self
-make credits page for images
-make all linked pages in readmes and whatnot
-make better images for slideshow thing on projects.html
