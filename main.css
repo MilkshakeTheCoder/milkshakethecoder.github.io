@@ -87,9 +87,6 @@ main {
     main#home p {
       color: #82b8ff;
     }
-    main#home footer{
-      color: #82b8ff;
-    }
   main#about {
     overflow: hidden; 
   }
@@ -105,9 +102,6 @@ main {
       color: #82b8ff;
     }
     main#about p {
-      color: #82b8ff;
-    }
-    main#about footer{
       color: #82b8ff;
     }
   main#projects {
@@ -127,9 +121,6 @@ main {
     main#projects p {
       color: #82b8ff;
     }
-    main#projects footer{
-      color: #82b8ff;
-    }
   main#experiences {
     overflow: hidden; 
   }
@@ -145,9 +136,6 @@ main {
       color: #82b8ff;
     }
     main#experiences p {
-      color: #82b8ff;
-    }
-    main#experiences footer{
       color: #82b8ff;
     }
   main#links {
@@ -167,10 +155,9 @@ main {
     main#links p {
       color: #82b8ff;
     }
-    main#links footer{
-      color: #82b8ff;
-    }
-
+footer{
+  color: #82b8ff;
+}
 .github{
   margin-right: 10px;
   transition: top ease 0.4s;
