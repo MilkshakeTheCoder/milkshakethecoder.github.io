@@ -278,12 +278,14 @@
   
   @media screen and (max-width: 400px) {
     .home_section h1 {
-      font-size: 25px;
+      font-size: 35px;
     }
     .home_section p {
       font-size: 0.8rem;
     }
-  
+    .home_section h2{
+      font-size: 25px;
+    }
     .social_icons {
       font-size: 45%;
       width: 140px;
