@@ -9,8 +9,8 @@
   
   :root {
     --main-accent: #82b8ff;
-    --main-bg: #222;
-    --darker-bg: rgb(46, 46, 46);
+    --main-bg: rgb(24, 24, 24);
+    --darker-bg: #222;
     --secondary: #82b8ff;
   }
   /* Scrollbar */
@@ -44,7 +44,33 @@
   }
   
   /* Navbar */
-  
+  .github{
+    margin-right: 10px;
+    transition: top ease 0.4s;
+    position: relative;
+    top: 0;
+  }
+  .github:hover{
+    top: -7px;
+  }
+  .discord{
+    margin-right: 10px;
+    transition: top ease 0.4s;
+    position: relative;
+    top: 0;
+  }
+  .discord:hover{
+    top: -7px;
+  }
+  .stackoverflow{
+    margin-right: 10px;
+    transition: top ease 0.4s;
+    position: relative;
+    top: 0;
+  }
+  .stackoverflow:hover{
+    top: -7px;
+  } 
   .navbar {
     position: sticky;
     top: 0;
@@ -276,6 +302,7 @@
     padding-bottom: 25px;
     padding-top: 50px;
     margin-bottom: 150px;
+    border: rgb(65, 65, 65) 1px solid;
   }
   h2 {
     color: #82b8ff;
@@ -341,34 +368,6 @@
       font-size: 1.5rem;
     }
   }
-  
-  .github{
-    margin-right: 10px;
-    transition: top ease 0.4s;
-    position: relative;
-    top: 0;
-  }
-  .github:hover{
-    top: -7px;
-  }
-  .discord{
-    margin-right: 10px;
-    transition: top ease 0.4s;
-    position: relative;
-    top: 0;
-  }
-  .discord:hover{
-    top: -7px;
-  }
-  .stackoverflow{
-    margin-right: 10px;
-    transition: top ease 0.4s;
-    position: relative;
-    top: 0;
-  }
-  .stackoverflow:hover{
-    top: -7px;
-  } 
     .infographics table {
       font-size: 80%;
     }
